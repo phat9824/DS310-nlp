@@ -1,0 +1,686 @@
+<sentences>
+    <sentence id="1">
+        <text>Món ăn được mang lên chỉ sau vài phút đặt món.</text>
+        <aspectTerms>
+            <aspectTerm term="Món ăn" from="0" to="7" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="2">
+        <text>Phần ăn không quá ít, cũng không nhiều.</text>
+        <aspectTerms>
+            <aspectTerm term="Phần ăn" from="0" to="8" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="3">
+        <text>Bàn ghế được lau dọn thường xuyên thì phải.</text>
+        <aspectTerms>
+            <aspectTerm term="bàn ghế" from="0" to="8" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="4">
+        <text>Không gian tạm ổn, không có gì nổi bật.</text>
+        <aspectTerms>
+            <aspectTerm term="không gian" from="0" to="10" polarity="neutral" implicit_sentiment="False" opinion_words="tạm ổn" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="5">
+        <text>Phục vụ quá chậm, đợi mãi mới có món.</text>
+        <aspectTerms>
+            <aspectTerm term="phục vụ" from="0" to="8" polarity="negative" implicit_sentiment="False" opinion_words="quá chậm" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="6">
+        <text>Phần ăn vẫn bỏ trong hộp xốp chứ k bày ra đĩa.</text>
+        <aspectTerms>
+            <aspectTerm term="Phần ăn" from="0" to="9" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="7">
+        <text>Combo lẩu vừa ít vừa dở.</text>
+        <aspectTerms>
+            <aspectTerm term="Combo lẩu" from="0" to="10" polarity="negative" implicit_sentiment="False" opinion_words="vừa ít vừa dở" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="8">
+        <text>Đồ ăn ở đây cũng tạm được</text>
+        <aspectTerms>
+            <aspectTerm term="Đồ ăn" from="0" to="7" polarity="neutral" implicit_sentiment="False" opinion_words="cũng tạm được" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="9">
+        <text>Mình chọn kho kiểu Sing thì hơi cay nhưng rất ngon Tà hợp vị nhé.</text>
+        <aspectTerms>
+            <aspectTerm term="kho kiểu Sing" from="12" to="25" polarity="positive" implicit_sentiment="False" opinion_words="rất ngon" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="10">
+        <text>Không cần chờ lâu để được phục vụ.</text>
+        <aspectTerms>
+            <aspectTerm term="phục vụ" from="26" to="33" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="11">
+        <text>Đồ ăn quá mặn, khó ăn.</text>
+        <aspectTerms>
+            <aspectTerm term="Đồ ăn" from="0" to="7" polarity="negative" implicit_sentiment="False" opinion_words="quá mặn, khó ăn" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="12">
+        <text>Thức ăn ở đây rất ngon, đặc biệt là món bò lúc lắc.</text>
+        <aspectTerms>
+            <aspectTerm term="thức ăn" from="0" to="8" polarity="positive" implicit_sentiment="False" opinion_words="rất ngon" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="13">
+        <text>Giá cả chấp nhận được.</text>
+        <aspectTerms>
+            <aspectTerm term="Giá cả" from="0" to="7" polarity="neutral" implicit_sentiment="False" opinion_words="chấp nhận được" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="14">
+        <text>Giá cả cực kỳ phải chăng.</text>
+        <aspectTerms>
+            <aspectTerm term="Giá cả" from="0" to="7" polarity="positive" implicit_sentiment="False" opinion_words="cực kỳ phải chăng" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="15">
+        <text>Món ngon Sài Thành nằm ngay đường Huỳnh Thúc Kháng gần ngã tư rẽ ra Nguyễn Chí Thanh ấy ạ.</text>
+        <aspectTerms>
+            <aspectTerm term="Món ngon Sài Thành" from="0" to="18" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="LOCATION#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="16">
+        <text>Nhân viên quá chậm chạp</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="8" to="17" polarity="negative" implicit_sentiment="False" opinion_words="quá chậm chạp" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#MISCELLANEOUS" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="17">
+        <text>Quán mở cửa từ rất sớm đến khuya.</text>
+        <aspectTerms>
+            <aspectTerm term="Quán" from="0" to="4" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="18">
+        <text>Không gian thoáng đãng, dễ chịu.</text>
+        <aspectTerms>
+            <aspectTerm term="không gian" from="0" to="10" polarity="positive" implicit_sentiment="False" opinion_words="thoáng đãng, dễ chịu" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="19">
+        <text>Nhân viên thường xuyên quên món.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="20">
+        <text>Không gian:k gian qán nhỏ nhắn đc trang trí nhìu màu sắc vs tone là xi măng vs gạch đỏ xây nhà í.</text>
+        <aspectTerms>
+            <aspectTerm term="Không gian" from="0" to="10" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="21">
+        <text>- Về không gian:nếu đến sớm thì ngoài vỉa hè chắc chắn toàn người là người ngồi la liệt, có 1 gian trong nhà nhưng cũng không chưa được là bao.</text>
+        <aspectTerms>
+            <aspectTerm term="không gian" from="5" to="15" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="22">
+        <text>Nhân viên phục vụ rất tận tâm và chu đáo.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="positive" implicit_sentiment="False" opinion_words="tận tâm, chu đáo" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="23">
+        <text>Thức uống ổn, phù hợp cho một buổi sáng bình thường.</text>
+        <aspectTerms>
+            <aspectTerm term="Thức uống" from="0" to="11" polarity="neutral" implicit_sentiment="False" opinion_words="ổn" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="DRINKS#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="24">
+        <text>Nhìn chung không có gì nổi bật.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhìn chung" from="0" to="10" polarity="neutral" implicit_sentiment="False" opinion_words="không có gì nổi bật." />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="25">
+        <text>Đồ uống không giống như mô tả trong menu.</text>
+        <aspectTerms>
+            <aspectTerm term="Đồ uống" from="0" to="8" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="DRINKS#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="26">
+        <text>Giá cả ở đây quá cao so với chất lượng.</text>
+        <aspectTerms>
+            <aspectTerm term="giá cả" from="0" to="7" polarity="negative" implicit_sentiment="False" opinion_words="quá cao" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="27">
+        <text>Nhân viên sao sao ấy</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="28">
+        <text>Quán khá đông vào giờ cao điểm.</text>
+        <aspectTerms>
+            <aspectTerm term="Quán" from="0" to="4" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="29">
+        <text>Quán có khu vực cho các gia đình lớn.</text>
+        <aspectTerms>
+            <aspectTerm term="khu vực" from="8" to="16" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="30">
+        <text>Nhà hàng có thực đơn thay đổi theo mùa.</text>
+        <aspectTerms>
+            <aspectTerm term="thực đơn" from="10" to="18" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="31">
+        <text>Hình như cửa hàng bên này chất lượng ko bằng bên Lý Chính Thắng với Lê Quý Đôn.</text>
+        <aspectTerms>
+            <aspectTerm term="cửa hàng" from="9" to="17" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="32">
+        <text>Phở gà ở đây nhạt nhẽo, không ngon.</text>
+        <aspectTerms>
+            <aspectTerm term="phở gà" from="0" to="7" polarity="negative" implicit_sentiment="False" opinion_words="nhạt nhẽo, không ngon" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="33">
+        <text>Bánh mì cứng, nhân ít, không đáng thử.</text>
+        <aspectTerms>
+            <aspectTerm term="bánh mì" from="0" to="8" polarity="negative" implicit_sentiment="False" opinion_words="cứng, nhân ít, không đáng thử" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="34">
+        <text>Cơ mà với giá đó ngồi nhà gọi ship hộp chữ nhật có 90k mà thấy vị còn rõ nét hơn</text>
+        <aspectTerms>
+            <aspectTerm term="giá" from="8" to="11" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="35">
+        <text>Mình có công việc ở toà nhà Bitexco nên sau khi mọi việc xong xuôi mình có ghé Phúc Long ở đây mua một ly trà sữa đào về uống.</text>
+        <aspectTerms>
+            <aspectTerm term="Phúc Long" from="76" to="88" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="LOCATION#GENERAL" polarity="neutral" />
+            <aspectCategory category="DRINKS#STYLE&amp;OPTIONS" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="36">
+        <text>Topping trừ trái cây ra, còn lại không ngon.</text>
+        <aspectTerms>
+            <aspectTerm term="Topping" from="0" to="7" polarity="negative" implicit_sentiment="False" opinion_words="không ngon" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="37">
+        <text>Nồi lẩu được bổ sung nước liên tục.</text>
+        <aspectTerms>
+            <aspectTerm term="Nồi lẩu" from="0" to="8" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="38">
+        <text>Nồi lẩu thường xuyên nguội.</text>
+        <aspectTerms>
+            <aspectTerm term="nồi lẩu" from="0" to="8" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="39">
+        <text>Nhân viên luôn cười khi phục vụ.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="40">
+        <text>Món mì ý sốt bơ kem của quán cũng rất ngon, có lớp phô mai béo béo nhưng nếu ăn nhiều sẽ gây ngấy.</text>
+        <aspectTerms>
+            <aspectTerm term="mì ý sốt bơ kem" from="4" to="21" polarity="positive" implicit_sentiment="False" opinion_words="rất ngon" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="41">
+        <text>Bánh mì giòn rụm, nhân đầy ụ, rất đáng thử.</text>
+        <aspectTerms>
+            <aspectTerm term="bánh mì" from="0" to="8" polarity="positive" implicit_sentiment="False" opinion_words="giòn rụm, nhân đầy ụ, rất đáng thử" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="42">
+        <text>Trà sữa bình thường</text>
+        <aspectTerms>
+            <aspectTerm term="Trà sữa" from="0" to="8" polarity="neutral" implicit_sentiment="False" opinion_words="bình thường" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="DRINKS#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="43">
+        <text>Menu mỏng như tờ báo, không món nào giá dưới 60k thì phải.</text>
+        <aspectTerms>
+            <aspectTerm term="Menu" from="0" to="4" polarity="neutral" implicit_sentiment="True" />
+            <aspectTerm term="giá" from="30" to="33" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#MISCELLANEOUS" polarity="neutral" />
+            <aspectCategory category="RESTAURANT#PRICES" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="44">
+        <text>Món ăn trông đẹp mắt nhưng vị không nổi bật.</text>
+        <aspectTerms>
+            <aspectTerm term="Món ăn" from="0" to="7" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="45">
+        <text>Đồ ăn tạm được</text>
+        <aspectTerms>
+            <aspectTerm term="Đồ ăn" from="0" to="5" polarity="neutral" implicit_sentiment="False" opinion_words="tạm được" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="OOD#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="46">
+        <text>Quán có điều hòa phà phà, rất thoải mái.</text>
+        <aspectTerms>
+            <aspectTerm term="điều hòa" from="8" to="17" polarity="positive" implicit_sentiment="False" opinion_words="phà phà, rất thoải mái" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#MISCELLANEOUS" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="47">
+        <text>Nhân viên đứng tụm lại nói chuyện, không để ý khách gọi món.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="48">
+        <text>Eden Coffee số 2 Nhà Thờ.</text>
+        <aspectTerms>
+            <aspectTerm term="Eden Coffee" from="0" to="11" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="LOCATION#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="49">
+        <text>Gọi có 4 món mà 2 món hết.</text>
+        <aspectTerms>
+            <aspectTerm term="món" from="7" to="10" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="50">
+        <text>Đầu bếp chưa ăn món mình nấu bao giờ à ??</text>
+        <aspectTerms>
+            <aspectTerm term="Đầu bếp" from="0" to="7" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="51">
+        <text>Không gian quán rất bí và nóng.</text>
+        <aspectTerms>
+            <aspectTerm term="không gian" from="0" to="10" polarity="negative" implicit_sentiment="False" opinion_words="rất bí và nóng" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="52">
+        <text>Giá 200k cho combo lẩu</text>
+        <aspectTerms>
+            <aspectTerm term="Giá" from="0" to="7" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="53">
+        <text>Phở gà ở đây ngọt thanh, ăn rất vừa miệng.</text>
+        <aspectTerms>
+            <aspectTerm term="Phở gà" from="0" to="7" polarity="positive" implicit_sentiment="False" opinion_words="ngọt thanh, vừa miệng" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="54">
+        <text>Tổng bill khoảng 600k, giảm 10% cho khách có thẻ thành viên.</text>
+        <aspectTerms>
+            <aspectTerm term="Tổng bill" from="0" to="10" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#MISCELLANEOUS" polarity="positive" />
+            <aspectCategory category="RESTAURANT#PRICES" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="55">
+        <text>Nhân viên quên mang nước chấm, mình phải nhắc nhiều lần.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="56">
+        <text>Quán hay hết bàn.</text>
+        <aspectTerms>
+            <aspectTerm term="Quán" from="0" to="4" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="57">
+        <text>Nước lẩu vị cũng ổn, không quá đậm đà.</text>
+        <aspectTerms>
+            <aspectTerm term="Nước lẩu" from="0" to="9" polarity="neutral" implicit_sentiment="False" opinion_words="cũng ổn" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="58">
+        <text>Trà sữa Gongcha nhiều đá quá, tệ.</text>
+        <aspectTerms>
+            <aspectTerm term="Trà sữa Gongcha" from="0" to="17" polarity="negative" implicit_sentiment="False" opinion_words="tệ" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="DRINKS#QUALITY" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="59">
+        <text>Trà sữa Gongcha ngon, béo, uống rất đã.</text>
+        <aspectTerms>
+            <aspectTerm term="trà sữa Gongcha" from="0" to="17" polarity="positive" implicit_sentiment="False" opinion_words="ngon, béo, rất đã" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="DRINKS#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="60">
+        <text>Combo lẩu này vừa ngon vừa rẻ.</text>
+        <aspectTerms>
+            <aspectTerm term="Combo lẩu" from="0" to="9" polarity="positive" implicit_sentiment="False" opinion_words="vừa ngon vừa rẻ" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#STYLE&amp;OPTIONS" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="61">
+        <text>Bò được phục vụ ngay khi chế biến.</text>
+        <aspectTerms>
+            <aspectTerm term="Bò" from="0" to="2" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="FOOD#QUALITY" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="62">
+        <text>Quán trang trí đẹp mắt, nhìn rất thích.</text>
+        <aspectTerms>
+            <aspectTerm term="Quán" from="0" to="4" polarity="positive" implicit_sentiment="False" opinion_words="trang trí đẹp mắt" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="63">
+        <text>Nhân viên thường xuyên thay vỉ nướng.</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="positive" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="positive" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="64">
+        <text>🍀Mình gọi 2 Bạch tuộc giá tầm 55k / phần</text>
+        <aspectTerms>
+            <aspectTerm term="giá" from="0" to="9" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="RESTAURANT#PRICES" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="65">
+        <text>Phục vụ cũng tạm, không quá nhanh.</text>
+        <aspectTerms>
+            <aspectTerm term="Phục vụ" from="0" to="8" polarity="neutral" implicit_sentiment="False" opinion_words="cũng tạm" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="66">
+        <text>Quán bẩn, bàn ghế không sạch sẽ.</text>
+        <aspectTerms>
+            <aspectTerm term="quán" from="0" to="4" polarity="negative" implicit_sentiment="False" opinion_words="bẩn, bàn ghế không sạch sẽ" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="AMBIENCE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="67">
+        <text>Phòng vệ sinh không có giấy, nước rửa tay cũng hết.</text>
+        <aspectTerms>
+            <aspectTerm term="Phòng vệ sinh" from="0" to="13" polarity="negative" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="negative" />
+        </aspectCategories>
+    </sentence>
+
+    <sentence id="68">
+        <text>Bạn nhân viên hơi chậm chạp nhưng dễ thương</text>
+        <aspectTerms>
+            <aspectTerm term="Nhân viên" from="0" to="9" polarity="neutral" implicit_sentiment="True" />
+        </aspectTerms>
+        <aspectCategories>
+            <aspectCategory category="SERVICE#GENERAL" polarity="neutral" />
+        </aspectCategories>
+    </sentence>
+
+</sentences>
